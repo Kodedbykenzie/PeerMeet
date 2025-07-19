@@ -34,7 +34,6 @@ PeerMeet is a comprehensive peer-to-peer learning platform that connects student
 - **MongoDB**: NoSQL database for data storage
 - **Mongoose**: MongoDB object modeling
 - **JWT**: Authentication using JSON Web Tokens
-- **bcrypt**: Password hashing
 ## Getting Started
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -74,6 +73,3 @@ PeerMeet is a comprehensive peer-to-peer learning platform that connects student
    npm run dev
    ```
 5. The API will be available at `http://localhost:5000`
-## API Documentation
-### Authentication Endpoints
-#### Register a new user
