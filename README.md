@@ -1,6 +1,6 @@
 # PeerMeet - Peer-to-Peer Learning Platform
 PeerMeet is a comprehensive peer-to-peer learning platform that connects students with knowledgeable peers and mentors. It facilitates knowledge sharing, collaboration, and skill development through personalized tutoring sessions, study groups, and resource sharing.
-![PeerMeet Dashboard](https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+![PeerMeet Dashboard](./Screenshot%202025-07-20%20at%201.49.30 AM.png)
 ## Features
 ### Core Features
 - **Peer Tutoring Marketplace**: Connect with peers who have expertise in specific subjects
