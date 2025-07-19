@@ -348,48 +348,6 @@ const LandingPage: React.FC = () => {
           </div>
         </div>
       </section>
-      {/* Pricing Section */}
-      <section id="pricing" className="py-16 bg-white dark:bg-gray-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-              Simple, Transparent Pricing
-            </h2>
-            <p className="mt-4 text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-              Choose the plan that fits your needs. No hidden fees.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {pricingPlans.map((plan, index) => <div key={index} className={`bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden border ${plan.popular ? 'border-blue-500 dark:border-blue-400 transform scale-105 md:scale-110' : 'border-gray-200 dark:border-gray-700'}`}>
-                {plan.popular && <div className="bg-blue-500 text-white text-center py-2 text-sm font-medium">
-                    Most Popular
-                  </div>}
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                    {plan.name}
-                  </h3>
-                  <div className="mb-4">
-                    <span className="text-4xl font-bold text-gray-900 dark:text-white">
-                      {plan.price}
-                    </span>
-                  </div>
-                  <p className="text-gray-600 dark:text-gray-400 mb-6">
-                    {plan.description}
-                  </p>
-                  <ul className="mb-8 space-y-3">
-                    {plan.features.map((feature, i) => <li key={i} className="flex items-center text-gray-600 dark:text-gray-300">
-                        <CheckIcon className="h-5 w-5 text-green-500 mr-2" />
-                        {feature}
-                      </li>)}
-                  </ul>
-                  <Link to="/register" className={`block w-full text-center py-3 rounded-md font-medium ${plan.popular ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-900 dark:text-white'}`}>
-                    {plan.cta}
-                  </Link>
-                </div>
-              </div>)}
-          </div>
-        </div>
-      </section>
       {/* CTA Section */}
       <section className="py-16 bg-blue-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -512,7 +470,7 @@ const LandingPage: React.FC = () => {
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400">
-              © 2023 PeerMeet. All rights reserved.
+              © 2025 PeerMeet. All rights reserved.
             </p>
             <div className="mt-4 md:mt-0 flex space-x-6">
               <a href="#twitter" className="text-gray-400 hover:text-white">
